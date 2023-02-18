@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 var selection = NULL;
 var markerAction = startTutorial;
 #var questionMarkAnim = anim('.duc', 0, 1);
@@ -63,3 +64,8 @@ sub resetMarker(x, y, xw, yh) {
 	addScreenRegion(marker, x - xw, y, x, y + yh, 0, 0, NORTH);
 
 }	
+=======
+sub init () {
+	addOverlay ('image.tga', 0, 0);
+}
+>>>>>>> b7fca36a71750152872cf019e14144207cd4e63b
